@@ -45,7 +45,7 @@ namespace RichEditControl_Encryption
             //Analyze the error that led to this event
             //Depending on the user input and number of attempts,
             //Prompt user to enter a password again
-            //or create an emtpy file
+            //or create an empty file
             switch (e.Error)
             {
                 case RichEditDecryptionError.PasswordRequired:
