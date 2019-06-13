@@ -120,6 +120,7 @@
             this.richEditControl1.Size = new System.Drawing.Size(551, 423);
             this.richEditControl1.TabIndex = 1;
             this.richEditControl1.BeforeImport += new DevExpress.XtraRichEdit.BeforeImportEventHandler(this.RichEditControl1_BeforeImport);
+            this.richEditControl1.DecryptionFailed += new DevExpress.XtraRichEdit.DecryptionFailedEventHandler(this.RichEditControl1_DecryptionFailed);
             this.richEditControl1.EncryptedFilePasswordRequested += new DevExpress.XtraRichEdit.EncryptedFilePasswordRequestedEventHandler(this.RichEditControl1_EncryptedFilePasswordRequested);
             this.richEditControl1.EncryptedFilePasswordCheckFailed += new DevExpress.XtraRichEdit.EncryptedFilePasswordCheckFailedEventHandler(this.RichEditControl1_EncryptedFilePasswordCheckFailed);
             // 

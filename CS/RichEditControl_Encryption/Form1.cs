@@ -95,6 +95,10 @@ namespace RichEditControl_Encryption
             richEditControl1.SaveDocumentAs();
         }
 
+        private void RichEditControl1_DecryptionFailed(object sender, DecryptionFailedEventArgs e)
+        {
+            MessageBox.Show(e.Exception.Message.ToString(), "Exception");
+        }
     }
     #region #CustomSaveFileDialog
     public class MyRichEditControl : RichEditControl

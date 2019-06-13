@@ -51,13 +51,13 @@
 			Me.dockPanel1 = New DevExpress.XtraBars.Docking.DockPanel()
 			Me.dockPanel1_Container = New DevExpress.XtraBars.Docking.ControlContainer()
 			Me.richEditBarController1 = New DevExpress.XtraRichEdit.UI.RichEditBarController(Me.components)
-			CType(Me.passwordEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.encryptionComboBox1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.barManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.dockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.passwordEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.encryptionComboBox1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.barManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.dockPanel1.SuspendLayout()
 			Me.dockPanel1_Container.SuspendLayout()
-			CType(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' simpleButton1
@@ -116,6 +116,8 @@
 			Me.richEditControl1.TabIndex = 1
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
 'ORIGINAL LINE: this.richEditControl1.BeforeImport += new DevExpress.XtraRichEdit.BeforeImportEventHandler(this.RichEditControl1_BeforeImport);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.richEditControl1.DecryptionFailed += new DevExpress.XtraRichEdit.DecryptionFailedEventHandler(this.RichEditControl1_DecryptionFailed);
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
 'ORIGINAL LINE: this.richEditControl1.EncryptedFilePasswordRequested += new DevExpress.XtraRichEdit.EncryptedFilePasswordRequestedEventHandler(this.RichEditControl1_EncryptedFilePasswordRequested);
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
@@ -299,14 +301,14 @@
 			Me.Name = "Form1"
 			Me.ShowIcon = False
 			Me.Text = "Rich Text Editor"
-			CType(Me.passwordEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.encryptionComboBox1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.barManager1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.dockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.passwordEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.encryptionComboBox1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.barManager1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dockManager1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.dockPanel1.ResumeLayout(False)
 			Me.dockPanel1_Container.ResumeLayout(False)
 			Me.dockPanel1_Container.PerformLayout()
-			CType(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 			Me.PerformLayout()
 

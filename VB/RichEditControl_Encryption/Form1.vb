@@ -81,6 +81,9 @@ Namespace RichEditControl_Encryption
 			richEditControl1.SaveDocumentAs()
 		End Sub
 
+		Private Sub RichEditControl1_DecryptionFailed(ByVal sender As Object, ByVal e As DecryptionFailedEventArgs) Handles richEditControl1.DecryptionFailed
+			MessageBox.Show(e.Exception.Message.ToString(), "Exception")
+		End Sub
 	End Class
 	#Region "#CustomSaveFileDialog"
 	Public Class MyRichEditControl
