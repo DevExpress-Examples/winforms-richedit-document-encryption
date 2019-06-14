@@ -73,6 +73,7 @@ namespace RichEditControl_Encryption
                     }
                     break;
             }
+            e.Handled = true;
 
         }
 

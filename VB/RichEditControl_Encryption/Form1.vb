@@ -61,7 +61,7 @@ Namespace RichEditControl_Encryption
 
 					End If
 			End Select
-
+ 			e.Handled = True
 		End Sub
 
 		Private Sub InitializePasswordEdit()
